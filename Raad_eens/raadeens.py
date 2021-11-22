@@ -8,7 +8,6 @@ print("U moet een geheim getal raden, u mag 10 keer een getal kiezen. Typ quit a
 while i < 20:
     i+=1
     randomint = random.randint(1, 1000)
-    print(randomint)
     x=0
     while x < 10:
         x+=1
